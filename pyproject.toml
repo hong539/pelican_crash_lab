@@ -10,6 +10,7 @@ packages = [{include = "pelican_crash_lab"}]
 [tool.poetry.dependencies]
 python = "^3.8"
 pelican = {extras = ["markdown"], version = "^4.8.0"}
+markdown = "^3.4.3"
 
 
 [build-system]
