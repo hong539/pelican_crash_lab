@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "pelican-crash-lab"
+version = "0.1.0"
+description = "play with Python pelican"
+authors = ["hong <j50508@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+packages = [{include = "pelican_crash_lab"}]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+pelican = {extras = ["markdown"], version = "^4.8.0"}
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
