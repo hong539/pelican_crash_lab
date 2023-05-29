@@ -22,4 +22,7 @@ poetry show --tree
 #play with pelican
 pelican-quickstart
 pelican content
+
+#run a webserver to check out your static web pages via markdown
+pelican -r -l
 ```
