@@ -26,3 +26,10 @@ pelican content
 #run a webserver to check out your static web pages via markdown
 pelican -r -l
 ```
+
+## To do list
+
+* design user interface(buttons/links...etc)
+* make personal roadmap or passive tree graph
+    * It could be static or dynamic web pages?
+    * Fine some reference examples
